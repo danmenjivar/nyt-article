@@ -1,0 +1,59 @@
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+========================================
+Navbar
+========================================
+*/
+
+.nav-header{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+.nav-header .nav-left {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14.25px;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+
+
+.nav-header .nav-left a {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.nav-header .nyt-logo svg {
+    flex: 2;
+    display: block;
+    width: 195;
+    height: 26px;
+}
+
+.nav-header .nav-right button{
+    color: #fff;
+    background-color: #567B95;
+    padding: 10px 7px 10px 7px;
+    border: none;
+    border-radius: 2px;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content > * {
+    padding-top: 10px;
+}
+
