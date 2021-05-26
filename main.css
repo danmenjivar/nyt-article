@@ -130,3 +130,8 @@ figcaption small {
     margin-top: 2rem;
 }
 
+.inflation-theory {
+    margin-left: -25%;
+    margin-right: -25%;
+    max-width: 945px;
+}
