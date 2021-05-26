@@ -189,22 +189,22 @@ figcaption small {
 
 .inflation-container .inf-5 {
   position: absolute;
-  top: 140px;
+  bottom: 70px;
 }
 
 .inflation-container .inf-6 {
   position: absolute;
-  top: 140px;
+  bottom: 55px;
   right: 433px;
 }
 
 .inflation-container .inf-7 {
   position: absolute;
-  top: 140px;
+  bottom: 70px;
   right: 189px;
 }
 .inflation-container .inf-8 {
   position: absolute;
-  top: 140px;
+  bottom: 64px;
   right: -50px;
 }
