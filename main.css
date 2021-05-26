@@ -18,6 +18,7 @@ Navbar
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e2e2e2;
+    background-color: #ffff;
 }
 .nav-header .nav-left {
     display: flex;
@@ -27,8 +28,6 @@ Navbar
     gap: 1rem;
     margin: 1rem;
 }
-
-
 
 .nav-header .nav-left a {
     font-family: 'Libre Franklin', sans-serif;
@@ -49,8 +48,50 @@ Navbar
     border-radius: 2px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+
+/*
+========================================
+Page Contents
+========================================
+*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+}
+
+.main-img {
+    width: 945px;
+    height: 531px;
+}
+
 .content h1 {
+    padding-top: 3rem;
     font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.content h2 {
+    align-self: normal;
+    font-weight: bold;
+    text-align: start;
+}
+
+.content p {
+    width: 600px;
 }
 
 .content > * {
