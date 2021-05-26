@@ -1,12 +1,12 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /*
@@ -15,53 +15,52 @@ Navbar
 ========================================
 */
 
-.nav-header{
-    height: 42px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #e2e2e2;
-    background-color: #ffff;
+.nav-header {
+  height: 42px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #ffff;
 }
 .nav-header .nav-left {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    font-size: 14.25px;
-    gap: 1rem;
-    margin: 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14.25px;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .nav-header .nav-left a {
-    font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .nav-header .nyt-logo svg {
-    flex: 2;
-    display: block;
-    width: 195;
-    height: 26px;
+  flex: 2;
+  display: block;
+  width: 195;
+  height: 26px;
 }
 
-.nav-header .nav-right button{
-    color: #fff;
-    background-color: #567B95;
-    padding: 10px 7px 10px 7px;
-    border: none;
-    border-radius: 2px;
+.nav-header .nav-right button {
+  color: #fff;
+  background-color: #567b95;
+  padding: 10px 7px 10px 7px;
+  border: none;
+  border-radius: 2px;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .sticky + .content {
-    padding-top: 102px;
+  padding-top: 102px;
 }
-
 
 /*
 ========================================
@@ -70,82 +69,142 @@ Page Contents
 */
 
 .content {
-    display: block;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 21px;    
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 21px;
 }
 
-.by-line .author{
-    font-size: 15px;
-    font-weight: bold;
-    color: #333333;
+.by-line .author {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
 }
 
-.by-line .date{
-    font-size: 13px;
-    color: #333333;
-    margin-top: 10px;
+.by-line .date {
+  font-size: 13px;
+  color: #333333;
+  margin-top: 10px;
 }
 
 .main-img {
-    display: block;
-    margin-left: -25%;
-    margin-right: -25%;
-    margin-bottom: 1rem;
+  display: block;
+  margin-left: -25%;
+  margin-right: -25%;
+  margin-bottom: 1rem;
 
-    max-width: 945px;
-    /* height: 75%; */
+  max-width: 945px;
+  /* height: 75%; */
 }
 
 .content h1 {
-    padding-top: 3rem;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #EBEBEB;
+  padding-top: 3rem;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ebebeb;
 }
 
 figcaption {
-    font-size: 15px;
-    color: #666666;
+  font-size: 15px;
+  color: #666666;
 }
 
 figcaption small {
-    font-size: 12px;
-    color: #888888;
+  font-size: 12px;
+  color: #888888;
 }
 
 .content h2 {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
-
 .content > * {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .inflation-theory {
-    margin-left: -25%;
-    margin-right: -25%;
-    max-width: 945px;
+  display: block;
+  margin-left: -25%;
+  margin-right: -25%;
+  max-width: 945px;
 }
 
 .telescope-img {
-    margin-left: -15px;
-    margin-right: -15px;
-    max-width: 720px;
+  margin-left: -15px;
+  margin-right: -15px;
+  max-width: 720px;
 }
 
 .footnote {
-    font-size: 12px;
-    color: #666666;
+  font-size: 12px;
+  color: #666666;
 }
 
 .footnote a {
-    color: #666666;
-    text-decoration: underline;
+  color: #666666;
+  text-decoration: underline;
+}
+.inflation-container {
+  position: relative;
+}
+
+.inflation-container img {
+  width: 945px;
+}
+
+.inflation-container .inf-desc {
+  width: 228px;
+  font-size: 14px;
+}
+
+.inflation-container .inf-desc em {
+  font-weight: bolder;
+}
+.inflation-container .inf-1 {
+  position: absolute;
+  top: 140px;
+}
+
+.inflation-container .inf-2 {
+  position: absolute;
+  top: 140px;
+  right: 433px;
+}
+
+.inflation-container .inf-3 {
+  position: absolute;
+  top: 140px;
+  right: 189px;
+}
+
+.inflation-container .inf-4 {
+  position: absolute;
+  top: 140px;
+  right: -50px;
+}
+
+.inflation-container .inf-5 {
+  position: absolute;
+  top: 140px;
+}
+
+.inflation-container .inf-6 {
+  position: absolute;
+  top: 140px;
+  right: 433px;
+}
+
+.inflation-container .inf-7 {
+  position: absolute;
+  top: 140px;
+  right: 189px;
+}
+.inflation-container .inf-8 {
+  position: absolute;
+  top: 140px;
+  right: -50px;
 }
