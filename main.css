@@ -120,9 +120,7 @@ figcaption small {
 
 .content h2 {
     display: block;
-    /* align-self: flex-start; */
     font-weight: bold;
-
 }
 
 
