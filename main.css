@@ -1,4 +1,8 @@
-
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 a {
     text-decoration: none;
@@ -66,35 +70,63 @@ Page Contents
 */
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 21px;
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;    
+}
+
+.by-line .author{
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.by-line .date{
+    font-size: 13px;
+    color: #333333;
+    margin-top: 10px;
 }
 
 .main-img {
-    width: 945px;
-    height: 531px;
+    display: block;
+    margin-left: -25%;
+    margin-right: -25%;
+    margin-bottom: 1rem;
+
+    max-width: 945px;
+    /* height: 75%; */
 }
 
 .content h1 {
     padding-top: 3rem;
     font-size: 40px;
     font-weight: bold;
-    
+    font-style: italic;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+figcaption {
+    font-size: 15px;
+    color: #666666;
+}
+
+figcaption small {
+    font-size: 12px;
+    color: #888888;
 }
 
 .content h2 {
-    align-self: normal;
+    display: block;
+    /* align-self: flex-start; */
     font-weight: bold;
-    text-align: start;
+
 }
 
-.content p {
-    width: 600px;
-}
 
 .content > * {
-    padding-top: 10px;
+    margin-top: 2rem;
 }
 
